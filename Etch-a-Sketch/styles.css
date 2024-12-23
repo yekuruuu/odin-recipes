@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.square-btn {
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    margin: 0;
+}
+
+button {
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: white;
+    border-radius: 40px;
+    border: 0px;
+    
+}
+
+.container {
+    display: flex;
+    border: solid black 1px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 640px;
+    height: 640px;
+    background-color: burlywood;
+}
+
+.gridDiv {
+    margin: 0;
+    background-color: burlywood;
+}
+
+.gridDiv:hover {
+    transition: 0.5s;
+}
